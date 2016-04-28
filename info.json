@@ -1,0 +1,10 @@
+{
+  "name": "BootstrapBots",
+  "version": "0.1.0",
+  "title": "Bootstrap Bots",
+  "author": "stolksdorf",
+  "contact": "",
+  "homepage": "",
+  "description": "A mod for Factorio to give you a smoother start ",
+  "dependencies": ["base >= 0.12.10"]
+}
