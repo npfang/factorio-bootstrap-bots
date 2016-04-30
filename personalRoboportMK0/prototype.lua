@@ -3,7 +3,7 @@ data:extend({
 	{
 		type = "item",
 		name = "personal_roboport_mk0",
-		icon = "__BootstrapBots__/personalRoboportMK0/icon.png",
+		icon = "__BootstrapBots__/personalRoboportMK0/item.png",
 		placed_as_equipment_result = "personal_roboport_mk0",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "equipment",

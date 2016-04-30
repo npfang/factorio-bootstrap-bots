@@ -17,7 +17,8 @@ data:extend({
 	{
 		type = "construction-robot",
 		name = "bootstrap_bot",
-		icon = "__BootstrapBots__/bootstrapBot/aceable-player", "player-creation", "placeable-off-grid", "not-on-map"},
+		icon = "__BootstrapBots__/bootstrapBot/item.png",
+		flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
 		minable = {hardness = 0.1, mining_time = 0.1, result = "bootstrap_bot"},
 		max_health = 30,
 		collision_box = {{0, 0}, {0, 0}},
