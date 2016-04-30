@@ -27,6 +27,9 @@ if remote.interfaces.freeplay then
 		giveItems(player, {
 			{'iron-plate', 50},
 			{'copper-plate', 50},
+			{"basic-transport-belt", 50},
+			{"basic-inserter", 10},
+
 			{'deconstruction-planner', 1},
 			{'blueprint', 1},
 			{'solar-panel-equipment', 2},

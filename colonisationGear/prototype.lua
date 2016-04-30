@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "armor",
 		name = "colonisation_gear",
-		icon = "__base__/graphics/icons/basic-modular-armor.png",
+		icon = "__BootstrapBots__/colonisationGear/item.png",
 		flags = {"goes-to-main-inventory"},
 		resistances =
 		{

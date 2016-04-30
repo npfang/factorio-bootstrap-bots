@@ -4,7 +4,7 @@ data:extend({
 	{
 		type = "item",
 		name = "bootstrap_bot",
-		icon = "__base__/graphics/icons/construction-robot.png",
+		icon = "__BootstrapBots__/bootstrapBot/item.png",
 		flags = {"goes-to-quickbar"},
 		subgroup = "logistic-network",
 		order = "a[robot]-b[construction-robot]",
@@ -17,8 +17,7 @@ data:extend({
 	{
 		type = "construction-robot",
 		name = "bootstrap_bot",
-		icon = "__base__/graphics/icons/construction-robot.png",
-		flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
+		icon = "__BootstrapBots__/bootstrapBot/aceable-player", "player-creation", "placeable-off-grid", "not-on-map"},
 		minable = {hardness = 0.1, mining_time = 0.1, result = "bootstrap_bot"},
 		max_health = 30,
 		collision_box = {{0, 0}, {0, 0}},
@@ -35,7 +34,7 @@ data:extend({
 		working_light = {intensity = 0.8, size = 3},
 		idle =
 		{
-			filename = "__base__/graphics/entity/construction-robot/construction-robot.png",
+			filename = "__BootstrapBots__/bootstrapBot/entity.png",
 			priority = "high",
 			line_length = 16,
 			width = 32,
@@ -46,7 +45,7 @@ data:extend({
 		},
 		in_motion =
 		{
-			filename = "__base__/graphics/entity/construction-robot/construction-robot.png",
+			filename = "__BootstrapBots__/bootstrapBot/entity.png",
 			priority = "high",
 			line_length = 16,
 			width = 32,
@@ -58,7 +57,7 @@ data:extend({
 		},
 		shadow_idle =
 		{
-			filename = "__base__/graphics/entity/construction-robot/construction-robot-shadow.png",
+			filename = "__BootstrapBots__/bootstrapBot/shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 50,
@@ -69,7 +68,7 @@ data:extend({
 		},
 		shadow_in_motion =
 		{
-			filename = "__base__/graphics/entity/construction-robot/construction-robot-shadow.png",
+			filename = "__BootstrapBots__/bootstrapBot/shadow.png",
 			priority = "high",
 			line_length = 16,
 			width = 50,
@@ -80,7 +79,7 @@ data:extend({
 		},
 		working =
 		{
-			filename = "__base__/graphics/entity/construction-robot/construction-robot-working.png",
+			filename = "__BootstrapBots__/bootstrapBot/working.png",
 			priority = "high",
 			line_length = 2,
 			width = 28,
@@ -95,7 +94,7 @@ data:extend({
 			stripes = util.multiplystripes(2,
 			{
 				{
-					filename = "__base__/graphics/entity/construction-robot/construction-robot-shadow.png",
+					filename = "__BootstrapBots__/bootstrapBot/shadow.png",
 					width_in_frames = 16,
 					height_in_frames = 1,
 				}
