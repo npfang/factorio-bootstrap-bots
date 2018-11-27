@@ -4,6 +4,7 @@ data:extend({
 		type = "item",
 		name = "personal_roboport_mk0",
 		icon = "__BootstrapBots__/personalRoboportMK0/item.png",
+		icon_size = 32,
 		placed_as_equipment_result = "personal_roboport_mk0",
 		flags = {"goes-to-main-inventory"},
 		subgroup = "equipment",

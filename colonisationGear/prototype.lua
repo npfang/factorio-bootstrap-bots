@@ -1,7 +1,7 @@
 data:extend({
 	{
 		type = "equipment-grid",
-		name = "bootstrap-equipment-grid",
+		name = "bootstrapbots-equipment-grid",
 		width = 3,
 		height = 2,
 		equipment_categories = {"armor"}
@@ -10,6 +10,7 @@ data:extend({
 		type = "armor",
 		name = "colonisation_gear",
 		icon = "__BootstrapBots__/colonisationGear/item.png",
+		icon_size = 32,
 		flags = {"goes-to-main-inventory"},
 		resistances =
 		{
@@ -31,9 +32,9 @@ data:extend({
 		},
 		durability = 1000,
 		subgroup = "armor",
-		order = "c[basic-modular-armor]",
+		order = "c[modular-armor]",
 		stack_size = 1,
-		equipment_grid = "bootstrap-equipment-grid",
+		equipment_grid = "bootstrapbots-equipment-grid",
 		inventory_size_bonus = 0
 	}
 
