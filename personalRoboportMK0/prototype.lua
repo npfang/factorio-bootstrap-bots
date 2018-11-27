@@ -32,8 +32,8 @@ data:extend({
 		energy_source =
 		{
 			type = "electric",
-			buffer_capacity = "7kJ",
-			input_flow_limit = "2kW",
+			buffer_capacity = "250kJ",
+			input_flow_limit = "20kW",
 			usage_priority = "secondary-input"
 		},
 		charging_energy = "200kW",
@@ -43,19 +43,6 @@ data:extend({
 		construction_radius = 12,
 		spawn_and_station_height = 0.4,
 		charge_approach_distance = 2.6,
-
-		radius_visualisation_picture =
-		{
-			filename = "__base__/graphics/entity/roboport/roboport-radius-visualization.png",
-			width = 12,
-			height = 12
-		},
-		construction_radius_visualisation_picture =
-		{
-			filename = "__base__/graphics/entity/roboport/roboport-construction-radius-visualization.png",
-			width = 12,
-			height = 12
-		},
 
 		recharging_animation =
 		{
@@ -70,9 +57,11 @@ data:extend({
 		recharging_light = {intensity = 0.4, size = 5},
 		stationing_offset = {0, -0.6},
 		charging_station_shift = {0, 0.5},
-		charging_station_count = 3,
+		charging_station_count = 2,
 		charging_distance = 1.6,
-		charging_threshold_distance = 5
+		charging_threshold_distance = 5,
+		categories = {"armor"}
 	}
+
 
 })
