@@ -11,7 +11,6 @@ local unlockRecipes = function(player, recipes)
 end
 
 local giveItems = function(player, items)
-	--player.clear_items_inside()
 	for i, v in pairs(items) do
 		player.insert{name = v[1], count = v[2]}
 	end
