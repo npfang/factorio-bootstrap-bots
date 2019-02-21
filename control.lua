@@ -30,7 +30,7 @@ script.on_event(defines.events.on_player_created, function(event)
 		--{'blueprint', 5},
 		{'solar-panel-equipment', 2},
 
-		{'bootstrap_bot', 3},
+		{'bootstrap_bot', 5},
 		{'colonisation_gear', 1},
 		{'personal_roboport_mk0', 1},
 	})
